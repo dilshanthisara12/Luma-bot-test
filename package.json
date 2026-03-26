@@ -1,0 +1,19 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Discord Music Bot using Moonlink.js v5.2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "moonlink.js": "^5.2.0",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
